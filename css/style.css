@@ -1,0 +1,97 @@
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+.nav_background{
+    background-color: brown;
+}
+
+.nav_inline{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.list{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list li a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.nav_inline input{
+    width: 20%;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+}
+
+.icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons li {
+    list-style: none;
+
+}
+
+.icons li a{
+    font-size: 23px;
+    color: aquamarine;
+}
+
+.nav_banner{
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/caca5535784723.5703c8fe7e549.jpg") center / cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.title{
+    text-align: center;
+    padding-top: 40vh;
+    color: white;
+    font-size: 30px;
+}
+
+.containere{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.card{
+    width: 250px;
+    height: 250px;
+    background: url('https://1auto.co/storage/ready_for_sales/20210709155718_2022-chevrolet-corvette-z06-1607016574.jpg') center / cover;
+    
+}
+
+.forms{
+    
+}
+
+
+
